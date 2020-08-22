@@ -4,3 +4,9 @@ def membertype(package_value):
 
     elif package_value > 1000 and package_value < 1199:
         print("Bronze Membership")
+
+    elif package_value > 1200 and package_value < 1499:
+        print("Silver Membership")
+
+    else:
+        print("Gold Membership")
