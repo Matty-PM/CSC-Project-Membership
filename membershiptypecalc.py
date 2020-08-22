@@ -1,11 +1,11 @@
-def membertype(package_value):
-    if package_value > 0 and package_value < 999:
+def membertype(membership_total):
+    if membership_total > 0 and membership_total < 999:
         print("Regular Membership")
 
-    elif package_value > 1000 and package_value < 1199:
+    elif membership_total > 1000 and membership_total < 1199:
         print("Bronze Membership")
 
-    elif package_value > 1200 and package_value < 1499:
+    elif membership_total > 1200 and membership_total < 1499:
         print("Silver Membership")
 
     else:

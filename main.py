@@ -1,4 +1,4 @@
 import membershiptypecalc
-package_value = 2500
+membership_total = 2500
 
-membershiptypecalc.membertype(package_value)
+membershiptypecalc.membertype(membership_total)
