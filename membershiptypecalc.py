@@ -1,5 +1,3 @@
-membership_type = 'null'
-
 def membertype(membership_total):
     if membership_total > 0 and membership_total < 999:
         membership_type = 'Regular Membership'
@@ -8,9 +6,10 @@ def membertype(membership_total):
         membership_type = 'Bronze Membership'
 
     elif membership_total > 1200 and membership_total < 1499:
-        membership_type = 'Silver Membership'
+        membership_type = 'Regular Membership'
 
     else:
-        membership_type = 'Gold Membership'    
+        print("Gold Membership")    
 
+    print(membership_type)
 

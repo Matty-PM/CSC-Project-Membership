@@ -1,5 +1,5 @@
 import membershiptypecalc
 
-membership_total = 6969
+membership_total = 1119
 
 membershiptypecalc.membertype(membership_total)
