@@ -9,7 +9,4 @@ def membertype(membership_total):
         membership_type = 'Regular Membership'
 
     else:
-        print("Gold Membership")    
-
-    print(membership_type)
-
+        membership_type = 'Gold Membership'
