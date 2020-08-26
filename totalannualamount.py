@@ -1,1 +1,1 @@
-membership_total = 50
+membership_total = 4500
