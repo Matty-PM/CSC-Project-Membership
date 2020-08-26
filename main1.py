@@ -6,4 +6,4 @@ membershiptypecalc.membershiptype(totalannualamount.membership_total)
 
 print(membershiptypecalc.membership_type)
 
-print(packages.package2.get("Session_No"))
+print(packages.package10.get("Cost"))
