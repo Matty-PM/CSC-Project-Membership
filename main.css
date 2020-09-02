@@ -3,8 +3,26 @@ body {
     margin: 0px;
     display: block;
 }
+.top_nav {
+  background-color: #eeeeee;
+  height: 50px;
+  margin-top: -22px;
+  padding-top: -22px
+}
+.top_nav-left {
+  float: center;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  font-family: 'Amiko', sans-serif;
+  
+}
+.top_nav-right {
+  float: right;
+  font-family: 'Amiko', sans-serif;
+}
 .header {
-    height: 60px;
+    height: 185px;
     width: 100%;
     background-color: blue;
 }
