@@ -2,6 +2,11 @@ body {
     padding: 0px;
     margin: 0px;
     display: block;
+    background-color: #eeeeee;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .top_nav {
   background-color: #eeeeee;
@@ -14,6 +19,7 @@ body {
   padding-left: 20px;
   padding-top: 20px;
   font-size: 15px;
+  word-spacing: 0.5vw;
   font-family: 'Amiko', sans-serif;
   
 }
@@ -24,22 +30,28 @@ body {
 .header {
     height: 185px;
     width: 100%;
-    background-color: blue;
+    background-color: white;
 }
 .header-left {
     float: left;
     font-family: 'Concert One', cursive;
-    color: #ffffff;
     font-size: 32px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 150px;
     cursor: context-menu;
+}
+.header-left-gym-logo{
+  height: 140px;
+  margin-top: 22.5px;
 }
 .header-right {
     float: right;
-    font-family: 'Space Mono', monospace;
-    margin-right: 20px;
-    color: #ffffff;
+    font-family: 'Lalezar', cursive;
+    margin-right: 150px;
+    word-spacing: 1.5vw;
+    font-size: 30px;
+    margin-top: 72.5px;
+    color: black;
 }
 .footer {
     height: 120px;
